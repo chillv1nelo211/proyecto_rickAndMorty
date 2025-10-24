@@ -34,6 +34,7 @@ export const MostrarInformacion = ({ id }) => {
     <dialog id="my_modal_1" className="modal">
       <div className="modal-box">
         <h3 className="font-bold text-lg">Information</h3>
+        <img src={info.image} alt={"imagen de" + info.name} />
         <p className="py-4">{info.name}</p>
         <p className="py-4">{info.location.name}</p>
         <div className="modal-action">
